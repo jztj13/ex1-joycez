@@ -1,4 +1,4 @@
-### a simple checkerboard
+## a simple checkerboard
 import numpy as np
 import matplotlib.pyplot as plt
 def generate_checkerboard(size=64, num_squares=8):
