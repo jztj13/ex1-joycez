@@ -1,3 +1,4 @@
+print("Hello from classmate-branch")
 ## a simple checkerboard
 import numpy as np
 import matplotlib.pyplot as plt
