@@ -1,3 +1,4 @@
+print("Hello from classmate-branch")
 ## a simple checkerboard
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +16,7 @@ def generate_checkerboard(size=64, num_squares=8):
 checkerboard = generate_checkerboard()
 ### Plot checkerboard
 plt.figure(figsize=(6,6))
-plt.imshow(checkerboard, cmap="viridis", interpolation="nearest")
+plt.imshow(checkerboard, cmap="Blues", interpolation="nearest")
 plt.axis("off")
 plt.title("A Checkerboard Pattern")
 plt.show()
